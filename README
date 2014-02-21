@@ -1,0 +1,8 @@
+Install:
+
+	git clone git://github.com/faithfracture/dotvim.git ~/.vim
+
+Symlink:
+	ln -s ~/.vim/.vimrc ~/.vimrc
+	ln -s ~/.vim/.gvimrc ~/.gvimrc
+
