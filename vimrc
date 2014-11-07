@@ -4,6 +4,7 @@ call pathogen#helptags()
 set hidden
 set nowrap
 set tabstop=4
+set expandtab
 set shiftwidth=4
 set shiftround
 set showmatch
