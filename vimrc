@@ -1,9 +1,13 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+set exrc
+set secure
+
 set hidden
 set nowrap
 set tabstop=4
+set softtabstop=4
 set expandtab
 set shiftwidth=4
 set shiftround
