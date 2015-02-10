@@ -18,6 +18,7 @@ set smartcase
 set smarttab
 set hlsearch
 set incsearch
+set backspace=2
 
 set nobackup
 set noswapfile
