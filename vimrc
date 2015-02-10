@@ -6,6 +6,14 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'octol/vim-cpp-enhanced-highlight'
+
+Plugin 'a.vim'
+Plugin 'cocoa.vim'
+Plugin 'ctrlp.vim'
+Plugin 'Syntastic'
+Plugin 'Valloric/YouCompleteMe'
+
 call vundle#end()
 
 filetype plugin indent on
@@ -49,3 +57,4 @@ if has("autocmd")
 	filetype plugin indent on
 endif
 
+set runtimepath^=~/.vim/bundle/ctrlp.vim
