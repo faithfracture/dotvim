@@ -7,6 +7,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'wesQ3/vim-windowswap'
 
 Plugin 'a.vim'
 Plugin 'cocoa.vim'
@@ -61,3 +62,5 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 let g:cpp_class_scope_highlight = 1
 let g:cpp_experimental_template_highlight = 1
+
+noremap <leader>jd :YcmCompleter GoTo<CR>
