@@ -12,6 +12,7 @@ Plugin 'wesQ3/vim-windowswap'
 Plugin 'a.vim'
 Plugin 'cocoa.vim'
 Plugin 'ctrlp.vim'
+Plugin 'The-NERD_tree'
 Plugin 'Syntastic'
 Plugin 'Valloric/YouCompleteMe'
 
