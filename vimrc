@@ -8,11 +8,11 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'wesQ3/vim-windowswap'
+Plugin 'scrooloose/nerdtree'
 
 Plugin 'a.vim'
 Plugin 'cocoa.vim'
 Plugin 'ctrlp.vim'
-Plugin 'The-NERD_tree'
 Plugin 'Syntastic'
 Plugin 'Valloric/YouCompleteMe'
 
