@@ -47,6 +47,8 @@ set mouse=a
 set wrap
 set linebreak
 
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+
 syntax on
 
 autocmd FileType objc let g:alternateExtensions_h = "m"
