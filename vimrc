@@ -47,6 +47,7 @@ set mouse=a
 set wrap
 set linebreak
 
+set cc=80
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
 syntax on
@@ -67,3 +68,4 @@ let g:cpp_class_scope_highlight = 1
 let g:cpp_experimental_template_highlight = 1
 
 noremap <leader>jd :YcmCompleter GoTo<CR>
+
