@@ -9,6 +9,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'scrooloose/nerdtree'
+Plugin 'tfnico/vim-gradle'
 
 Plugin 'a.vim'
 Plugin 'cocoa.vim'
