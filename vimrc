@@ -58,15 +58,13 @@ autocmd FileType objc let g:alternateExtensions_m = "h"
 
 let g:cpp_class_scope_highlight = 1
 let g:cpp_experimental_template_highlight = 1
+let g:ycm_extra_conf_globlist = ['~/projects/starMobile*/*', '~/projects/oecore/*']
 
 if has("autocmd")
 	filetype plugin indent on
 endif
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-
-let g:cpp_class_scope_highlight = 1
-let g:cpp_experimental_template_highlight = 1
 
 noremap <leader>jd :YcmCompleter GoTo<CR>
 
