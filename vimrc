@@ -10,6 +10,7 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tfnico/vim-gradle'
+Plugin 'stevearc/vim-arduino'
 
 Plugin 'a.vim'
 Plugin 'cocoa.vim'
