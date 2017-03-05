@@ -69,3 +69,5 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 noremap <leader>jd :YcmCompleter GoTo<CR>
 
+command CleanupChapters %s/CHAPTER\d*=.*\nCHAPTER\(\d*\)NAME=\(.*\)/\1, \2/g
+
