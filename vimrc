@@ -6,17 +6,18 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'gnattishness/cscope_maps'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tfnico/vim-gradle'
 Plugin 'stevearc/vim-arduino'
+Plugin 'Valloric/YouCompleteMe'
 
 Plugin 'a.vim'
 Plugin 'cocoa.vim'
 Plugin 'ctrlp.vim'
 Plugin 'Syntastic'
-Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 
@@ -68,4 +69,11 @@ endif
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 noremap <leader>jd :YcmCompleter GoTo<CR>
+
+" Vim-Arduino config
+let g:arduino_board = 'arduino:avr:mega'
+let g:arudino_serial_tmux = 'split-window -d'
+let g:arduino_serial_port = '/dev/cu.usbmodemFA131'
+let g:arduino_auto_baud = 1
+let g:arduino_args = '--verbose-upload'
 
