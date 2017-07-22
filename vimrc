@@ -77,3 +77,5 @@ let g:arduino_serial_port = '/dev/cu.usbmodemFA131'
 let g:arduino_auto_baud = 1
 let g:arduino_args = '--verbose-upload'
 
+command CleanupChapters %s/CHAPTER\d*=.*\nCHAPTER\(\d*\)NAME=\(.*\)/\1, \2/g
+
