@@ -17,6 +17,7 @@ Plugin 'Valloric/YouCompleteMe'
 
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'keith/swift.vim'
 
 Plugin 'a.vim'
 Plugin 'cocoa.vim'
