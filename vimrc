@@ -11,6 +11,7 @@ Plugin 'wesQ3/vim-windowswap'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tfnico/vim-gradle'
 Plugin 'stevearc/vim-arduino'
+Plugin 'keith/swift.vim'
 
 Plugin 'a.vim'
 Plugin 'cocoa.vim'
