@@ -6,7 +6,6 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'udalov/kotlin-vim'
 Plugin 'gnattishness/cscope_maps'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'wesQ3/vim-windowswap'
@@ -15,6 +14,7 @@ Plugin 'tfnico/vim-gradle'
 Plugin 'stevearc/vim-arduino'
 Plugin 'Valloric/YouCompleteMe'
 
+Plugin 'udalov/kotlin-vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'keith/swift.vim'
@@ -46,6 +46,7 @@ set smarttab
 set hlsearch
 set incsearch
 set backspace=2
+set background=dark
 
 set nobackup
 set noswapfile
@@ -55,7 +56,7 @@ set mouse=a
 set wrap
 set linebreak
 
-set cc=80
+set cc=120
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set encoding=utf-8
 
@@ -87,4 +88,5 @@ let g:arduino_args = '--verbose-upload'
 let g:jsx_ext_required = 0
 
 command CleanupChapters %s/CHAPTER\d*=.*\nCHAPTER\(\d*\)NAME=\(.*\)/\1, \2/g
+command JoinSubtitles %s/\n/ / | s/\(\d\+\)\s\(\d\{2}:\d\{2}:\d\{2},\d\{3}\s-->\s\d\{2}:\d\{2}:\d\{2},\d\{3}\)\s/\r\r\1\r\2\r/g 
 
