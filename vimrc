@@ -11,13 +11,11 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tfnico/vim-gradle'
-Plugin 'stevearc/vim-arduino'
 Plugin 'Valloric/YouCompleteMe'
 
 Plugin 'udalov/kotlin-vim'
-Plugin 'pangloss/vim-javascript'
-Plugin 'mxw/vim-jsx'
 Plugin 'keith/swift.vim'
+Plugin 'easymotion/vim-easymotion'
 
 Plugin 'a.vim'
 Plugin 'cocoa.vim'
@@ -67,7 +65,7 @@ autocmd FileType objc let g:alternateExtensions_m = "h"
 
 let g:cpp_class_scope_highlight = 1
 let g:cpp_experimental_template_highlight = 1
-let g:ycm_extra_conf_globlist = ['~/projects/starMobile*/*', '~/projects/oecore/*']
+" let g:ycm_extra_conf_globlist = ['~/projects/starMobile*/*', '~/projects/oecore/*']
 
 if has("autocmd")
 	filetype plugin indent on
